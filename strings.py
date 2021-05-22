@@ -7,19 +7,19 @@ print("hello" + "world")
 # if we want space, we can add that too
 # print (greeting + '' + name)
 
-
-# Variables
+# # Variables
 greeting = "Hello"
-# name = "Bruce"
-name = input("Louis Benagha")
+name = "Bruce"
+# name = input("Louis Benagha")
+
 print(greeting + name)
 print(greeting + '' + name)
 
 age = 24
-print(age)
-
-# To know what variable types are?, python interprets them as such
 print(type(age))
-print(type(greeting))
 
+age_in_words = "2 years"
 
+# print(name + " is " + age + " years old ")
+print(name + " is " + "age" + " years old ")
+print(type(age))
