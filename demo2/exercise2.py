@@ -3,6 +3,8 @@ y = 7
 
 if x > y:
     print("that answer is incorrect")
+elif x < y:
+    print("that answer says it's less than y")
 else:
     print("that answer is correct")
 
