@@ -16,16 +16,14 @@
 #     print("your command failed")
 
 # script to clear screen for both windows and linux machine #
+
 import os
 import platform
 
-if platform.system() == "linux":
-    os.system("clear")
-    print("screen clear for linux machine done")
-
-elif platform.system() == "windows":
+if platform.system() == "windows":
     os.system("cls")
-    print("screen for windows cleared and done")
+    print("screen clear for windows machine done")
 
 else:
-    print("this script was not copied to a linux or windows machine")
+    os.system("clear")
+    print("screen clear for linux machine done")
