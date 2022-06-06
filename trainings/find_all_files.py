@@ -1,7 +1,6 @@
 #!/usr/local/bin/python3
 import os
 req_path=input("Enter your directory path: ")
-#req_ex=input("Enter the required files extention .py/.sh/.log/.txt: ")
 
 if os.path.isfile(req_path):
   print(f"The given path {req_path} is a file. Please a directory path only")
